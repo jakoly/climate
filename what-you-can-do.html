@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wycd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="res/icon/logo.png" type="image/png">
+    <title>Earth Watch - What you can do</title>
+</head>
+<body>
+    <main>
+        <section id="header" class="scale-in-center">
+            <nav>
+                <ul>
+                    <li><img src="res/icon/steak.png" alt="steak" id="steak" class="onClick"></li>
+                    <li><img src="res/icon/cheese.png" alt="cheese" id="cheese" class="onClick"></li>
+                    <li><img src="res/icon/butter.png" alt="butter" id="butter" class="onClick"></li>
+                    <li><img src="res/icon/shrimp.png" alt="shrimp" id="shrimp" class="onClick"></li>
+                    <li><img src="res/icon/avocado.png" alt="avocado" id="avocado" class="onClick"></li>
+                    <li><img src="res/icon/cocoa.png" alt="cocoa" id="cocoa" class="onClick"></li>
+                    <li><img src="res/icon/rice.png" alt="rice" id="rice" class="onClick"></li>
+                    <li><img src="res/icon/freezer.png" alt="freezer" id="freezer" class="onClick"></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <div id="content">
+            <section class="content">
+                <h2 id="headline" class="mono-font"></h2>
+            </section>
+
+            <section class="content">
+                <ul>
+                    <li><img src="res/icon/eating.png"><p id="eat"></p></li>
+                    <li><img src="res/icon/water.png"><p id="water"></p></li>
+                    <li><img src="res/icon/co2.png"><p id="co2"></p></li>
+                </ul>
+            </section>
+            <p class="footnote">* pro kg Fleisch</p>
+
+            <section class="content">
+                <p id="description"></p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
+
+<script src="src/clickItem.js"></script>

@@ -1,0 +1,63 @@
+* {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section nav img {
+  height: 7.5vh;
+  cursor: pointer;
+}
+
+#header {
+  padding-bottom: 8%;
+}
+
+.content {
+  margin: 0;
+  margin-bottom: -10vh;
+  padding: 5vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+.content ul li {
+  margin: 3vw;
+}
+.content ul img {
+  height: 10vh;
+}
+.content ul p {
+  font-size: 3em;
+}
+.content p {
+  text-align: block;
+  font-size: 2em;
+}
+
+.footnote {
+  margin: 4%;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  section nav img {
+    height: 5vh;
+  }
+  .content {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .content ul li {
+    margin: 3vw;
+  }
+  .content ul p {
+    font-size: 1.5em;
+  }
+  .content p {
+    font-size: 1.2em;
+  }
+  .footnote {
+    margin: 8%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=wycd.css.map */
